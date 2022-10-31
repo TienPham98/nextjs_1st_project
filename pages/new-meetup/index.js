@@ -2,7 +2,7 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import NewMeetupForm from '../../components/meetups/NewMeetupForm';
-import { Fragment } from 'react/cjs/react.production.min';
+import { Fragment } from 'react';
 
 function NewMeetupPage() {
     const router = useRouter();
